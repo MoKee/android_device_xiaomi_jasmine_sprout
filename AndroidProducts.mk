@@ -15,3 +15,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/mk_jasmine_sprout.mk
+
+COMMON_LUNCH_CHOICES := \
+    mk_jasmine_sprout-user \
+    mk_jasmine_sprout-userdebug \
+    mk_jasmine_sprout-eng
