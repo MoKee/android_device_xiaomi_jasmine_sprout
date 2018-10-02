@@ -35,5 +35,8 @@ TARGET_NO_RECOVERY := true
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
+
 # Inherit the proprietary files
 -include vendor/xiaomi/jasmine_sprout/BoardConfigVendor.mk
