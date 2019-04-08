@@ -65,7 +65,6 @@ PRODUCT_STATIC_BOOT_CONTROL_HAL := \
 
 # Update engine
 PRODUCT_PACKAGES += \
-    brillo_update_payload \
     update_engine \
     update_engine_sideload \
     update_verifier
