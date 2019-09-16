@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/mk_jasmine_sprout.mk
+    $(LOCAL_DIR)/mokee_jasmine_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    mk_jasmine-user \
-    mk_jasmine-userdebug \
-    mk_jasmine-eng
+    mokee_jasmine_sprout-user \
+    mokee_jasmine_sprout-userdebug \
+    mokee_jasmine_sprout-eng
