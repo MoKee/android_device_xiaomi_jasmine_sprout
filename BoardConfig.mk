@@ -37,8 +37,5 @@ TARGET_NO_RECOVERY := true
 # Root Folders
 BOARD_ROOT_EXTRA_FOLDERS := bt_firmware dsp firmware persist
 
-# Security patch level
-VENDOR_SECURITY_PATCH := 2018-11-05
-
 # Inherit the proprietary files
 -include vendor/xiaomi/jasmine_sprout/BoardConfigVendor.mk
