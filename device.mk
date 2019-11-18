@@ -39,15 +39,21 @@ AB_OTA_POSTINSTALL_CONFIG += \
     POSTINSTALL_OPTIONAL_system=true
 
 PRODUCT_PACKAGES += \
-    otapreopt_script \
+    otapreopt_script
+
+# Update engine
+PRODUCT_PACKAGES += \
+    brillo_update_payload \
     update_engine \
     update_engine_sideload \
     update_verifier
 
+PRODUCT_PACKAGES_DEBUG += \
+    update_engine_client
+
 # The following modules are included in debuggable builds only.
 PRODUCT_PACKAGES_DEBUG += \
-    bootctl \
-    update_engine_client
+    bootctl
 
 # Boot control HAL
 PRODUCT_PACKAGES += \
@@ -59,6 +65,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     bootctrl.sdm660 \
+    libcutils \
     libgptutils \
     libz
 
