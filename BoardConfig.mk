@@ -27,8 +27,6 @@
 
 DEVICE_PATH := device/xiaomi/jasmine_sprout
 
-TARGET_OTA_ASSERT_DEVICE := jasmine, jasmine_sprout
-
 # A/B
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 BOARD_USES_RECOVERY_AS_BOOT := true
