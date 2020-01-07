@@ -22,6 +22,9 @@
 # definition file).
 #
 
+# Kernel
+TARGET_KERNEL_CONFIG := jasmine_defconfig
+
 # Inherit from wayne-common
 -include device/xiaomi/wayne-common/BoardConfigCommon.mk
 
