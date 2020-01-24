@@ -25,7 +25,7 @@
 # Inherit from wayne-common
 -include device/xiaomi/wayne-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/wayne
+DEVICE_PATH := device/xiaomi/jasmine_sprout
 
 # Inherit the proprietary files
--include vendor/xiaomi/wayne/BoardConfigVendor.mk
+-include vendor/xiaomi/jasmine_sprout/BoardConfigVendor.mk

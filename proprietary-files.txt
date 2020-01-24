@@ -1,4 +1,4 @@
-# Fingerprint - from wayne
+# Fingerprint - from jasmine_sprout
 vendor/lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.sdm660.so
 vendor/lib64/hw/fingerprint.fpc.default.so
 vendor/lib64/hw/fingerprint.goodix.default.so

@@ -19,23 +19,23 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-# Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common MK stuff
+$(call inherit-product, vendor/mk/config/common_full_phone.mk)
 
-# Inherit from wayne device
+# Inherit from jasmine device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 PRODUCT_BRAND := Xiaomi
-PRODUCT_DEVICE := wayne
+PRODUCT_DEVICE := jasmine_sprout
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := lineage_wayne
-PRODUCT_MODEL := MI 6X
+PRODUCT_NAME := mk_jasmine_sprout
+PRODUCT_MODEL := Mi A2
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-TARGET_VENDOR_PRODUCT_NAME := wayne
+TARGET_VENDOR_PRODUCT_NAME := jasmine
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="wayne-user 8.1.0 OPM1.171019.011 V10.0.3.0.ODCCNFH release-keys"
+    PRIVATE_BUILD_DESC="jasmine-user 9 PKQ1.180904.001 V10.0.1.0.PDIMIFJ release-keys"
 
-BUILD_FINGERPRINT := xiaomi/wayne/wayne:8.1.0/OPM1.171019.011/V10.0.3.0.ODCCNFH:user/release-keys
+BUILD_FINGERPRINT := xiaomi/jasmine/jasmine_sprout:9/PKQ1.180904.001/V10.0.1.0.PDIMIFJ:user/release-keys
