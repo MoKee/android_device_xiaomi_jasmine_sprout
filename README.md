@@ -1,4 +1,4 @@
-This repository contains device configuration for Xiaomi MI A2 (jasmine_sprout)
+This repository contains device configuration for Xiaomi Mi A2 (jasmine_sprout)
 
 Basic   | Spec Sheet
 -------:|:----------
@@ -14,7 +14,7 @@ Display | 1080x2160 pixels, 5.99
 Rear Camera  | 12MP+20MP, AI Dual Camera
 Front Camera | 20 MP
 
-![Xiaomi MI A2](https://i01.appmifile.com/webfile/globalimg/7/FF67F07B-049A-98ED-E767-44DC01387F59.jpg "Xiaomi MI A2")
+![Xiaomi MI A2](https://i01.appmifile.com/webfile/globalimg/7/FF67F07B-049A-98ED-E767-44DC01387F59.jpg "Xiaomi Mi A2")
 
 ## Copyright
 

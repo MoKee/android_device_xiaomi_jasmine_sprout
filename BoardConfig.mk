@@ -23,7 +23,7 @@
 #
 
 # Inherit from wayne-common
--include device/xiaomi/wayne-common/BoardConfigCommon.mk
+include device/xiaomi/wayne-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/jasmine_sprout
 
@@ -35,8 +35,11 @@ TARGET_NO_RECOVERY := true
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
-# Soong namespaces
-PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
+# Recovery
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
+
+# Security patch level
+VENDOR_SECURITY_PATCH := 2020-04-05
 
 # Inherit the proprietary files
--include vendor/xiaomi/jasmine_sprout/BoardConfigVendor.mk
+include vendor/xiaomi/jasmine_sprout/BoardConfigVendor.mk
